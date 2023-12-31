@@ -45,11 +45,12 @@ They are stored in a second heap called aliascmds, each alias is an array-like s
 "alias"
 "execalias"
 ```
-### echo
+#### echo
 prints the second argument to the screen
-### setvar
+#### setvar
 assigns a variable in the heap a value (3rd argument)
-### calcvar
+<hr>
+#### calcvar
 syntax:
 ```
 setvar [var1] [operation] [var2] [var3]
@@ -67,6 +68,7 @@ division
 (returns boolean 1 or 0) is equal
 ##### isnot
 (returns boolean 1 or 0) is not equal
+<hr>
 #### quit
 quit the program
 #### alias
