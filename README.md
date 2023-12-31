@@ -10,7 +10,7 @@ however if there are double quotes they sould not be split, insted bbeing consid
 The output will be stored in an array-like structure.
 The quotes should not be visable in the output.
 
-Wxample:
+Example:
 ```
 input: 'a b c "a b c"'
 output ['a', 'b', 'c', 'abc']
@@ -32,5 +32,5 @@ The interpreter's operations should be extensible.
 
 
 ## usage
-If we make a variable called "usrin" and we set it to contain a command, for example `echo "Hello, World!"`
+If we make a variable called "usrin" and we set it to contain a command, for example `echo "Hello, World!"`.
 We would pass the "usrin" variable to the lexer function, after the lexer has completed we would pass the tokens from the lexer function into the interpreter function.
