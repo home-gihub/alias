@@ -50,25 +50,34 @@ prints the second argument to the screen
 #### setvar
 assigns a variable in the heap a value (3rd argument)
 <hr>
+
 #### calcvar
 syntax:
 ```
 setvar [var1] [operation] [var2] [var3]
 ```
 performs operation on var1 and var2 then puts a value into var3
+
 ##### add
 addition
+
 ##### sub
 subtraction
+
 ##### mul
 multiplication
+
 ##### div
 division
+
 ##### is
 (returns boolean 1 or 0) is equal
+
 ##### isnot
 (returns boolean 1 or 0) is not equal
+
 <hr>
+
 #### quit
 quit the program
 #### alias
