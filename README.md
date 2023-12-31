@@ -29,6 +29,50 @@ Hello, World!
 ```
 
 The interpreter's operations should be extensible.
+### heap
+The heap is simple, just store valuses and get values by string. An example would be a dictonary
+### aliases
+An alias is a group of commands that are stored under one name. 
+They can be executed by the exec alias command.
+The way they execute is one command at a time, execute one, then go to the next in the alias.
+They are stored in a second heap called aliascmds, each alias is an array-like structure with each command in it.
+### included commands
+```
+"echo"
+"setvar"
+"calcvar"
+"quit"
+"alias"
+"execalias"
+```
+### echo
+prints the second argument to the screen
+### setvar
+assigns a variable in the heap a value (3rd argument)
+### calcvar
+syntax:
+```
+setvar [var1] [operation] [var2] [var3]
+```
+performs operation on var1 and var2 then puts a value into var3
+##### add
+addition
+##### sub
+subtraction
+##### mul
+multiplication
+##### div
+division
+##### is
+(returns boolean 1 or 0) is equal
+##### isnot
+(returns boolean 1 or 0) is not equal
+#### quit
+quit the program
+#### alias
+assigns a alias a value
+#### execalias
+executes an alias
 
 
 ## usage
