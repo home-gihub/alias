@@ -48,7 +48,7 @@ They are stored in a second heap called aliascmds, each alias is an array-like s
 #### echo
 prints the second argument to the screen
 #### setvar
-assigns a variable in the heap a value (3rd argument)
+assigns a variable (2nd argument) in the heap a value (3rd argument)
 <hr>
 
 #### calcvar
