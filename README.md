@@ -33,7 +33,7 @@ The interpreter's operations should be extensible.
 The heap is simple, just store valuses and get values by string. An example would be a dictonary
 ### aliases
 An alias is a group of commands that are stored under one name. 
-They can be executed by the exec alias command.
+They can be executed by simply referencing them like a normal command (e.g. `echo`).
 The way they execute is one command at a time, execute one, then go to the next in the alias.
 They are stored in a second heap called aliascmds, each alias is an array-like structure with each command in it.
 ### included commands
@@ -43,7 +43,6 @@ They are stored in a second heap called aliascmds, each alias is an array-like s
 "calcvar"
 "quit"
 "alias"
-"execalias"
 ```
 #### echo
 prints the second argument to the screen
@@ -82,8 +81,6 @@ division
 quit the program
 #### alias
 assigns a alias a value
-#### execalias
-executes an alias
 
 
 ## usage
